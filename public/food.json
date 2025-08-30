@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "foodName": "Margherita Pizza",
+    "foodPrice": 8.99,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1414575281/photo/a-delicious-and-tasty-italian-pizza-margherita-with-tomatoes-and-buffalo-mozzarella.jpg?b=1&s=612x612&w=0&k=20&c=l3r2EtHJQWKZhX5iqGmrkv4QMk2Z57HvaggU7RUd2k4=",
+    "foodDescription": "Classic pizza with fresh tomatoes, mozzarella cheese, and basil."
+  },
+  {
+    "id": 2,
+    "foodName": "Cheeseburger",
+    "foodPrice": 6.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/2166728719/photo/delicious-cheeseburger-with-fresh-ingredients.jpg?b=1&s=612x612&w=0&k=20&c=A16TtO8ORGW7Ktdb8qZmXpm6erDTVwuPbhWeJuOjeSQ=",
+    "foodDescription": "Juicy grilled beef patty with cheese, lettuce, tomato, and pickles."
+  },
+  {
+    "id": 3,
+    "foodName": "Caesar Salad",
+    "foodPrice": 5.75,
+    "isAvailable": false,
+    "foodPhoto": "https://media.istockphoto.com/id/2162005702/photo/chicken-caesar-pasta-salad-with-sauce-in-white-plate-healthy-food.jpg?b=1&s=612x612&w=0&k=20&c=A0FgHZ-K0dx0AbxCjl5fUfQWMX1YFlWrCYpb1QfHL4o=",
+    "foodDescription": "Fresh romaine lettuce with Caesar dressing, croutons, and Parmesan."
+  },
+  {
+    "id": 4,
+    "foodName": "Spaghetti Bolognese",
+    "foodPrice": 9.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1227170236/photo/healthy-vegan-spaghetti-bolognese.jpg?b=1&s=612x612&w=0&k=20&c=i2G0Q8oJsnwDWSmsV_ogarSl6LnYo-TdMSJt7wqiLE4=",
+    "foodDescription": "Traditional Italian pasta with rich meat sauce."
+  },
+  {
+    "id": 5,
+    "foodName": "Grilled Chicken Sandwich",
+    "foodPrice": 7.99,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1149914131/photo/chicken-apple-sandwich.jpg?b=1&s=612x612&w=0&k=20&c=pp3amGk9t5r_SKrRIfIrdoN69_mdA3Tima1x7Gv3DXY=",
+    "foodDescription": "Grilled chicken breast with lettuce, tomato, and mayo on a bun."
+  },
+  {
+    "id": 6,
+    "foodName": "Vegetable Stir Fry",
+    "foodPrice": 8.25,
+    "isAvailable": false,
+    "foodPhoto": "https://media.istockphoto.com/id/1207271995/photo/stir-frying-and-sauteing-a-variety-of-fresh-colorful-market-vegetables-in-a-hot-steaming-wok.jpg?b=1&s=612x612&w=0&k=20&c=82Hvr4hXkop4DHYhrSZSBPyIfcaNrKR3FFVeLAx7RPc=",
+    "foodDescription": "Mixed vegetables stir fried in soy sauce and garlic."
+  },
+  {
+    "id": 7,
+    "foodName": "Beef Tacos",
+    "foodPrice": 6.75,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1333647378/photo/homemade-american-soft-shell-beef-tacos.jpg?b=1&s=612x612&w=0&k=20&c=EBD_3g51pMmLXVFWOSqVbTlKfBp-D3QvfMSranKIEUM=",
+    "foodDescription": "Spiced beef with lettuce, cheese, and salsa in soft tortillas."
+  },
+  {
+    "id": 8,
+    "foodName": "Chicken Caesar Wrap",
+    "foodPrice": 7.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/2203808399/photo/turkey-wraps-on-a-plate.jpg?b=1&s=612x612&w=0&k=20&c=yV4ccglmUKz_fS3BcYYLuRLOAGpK8QOy7JrH9Yb7jpI=",
+    "foodDescription": "Grilled chicken, romaine lettuce, Caesar dressing wrapped in a tortilla."
+  },
+  {
+    "id": 9,
+    "foodName": "Mushroom Risotto",
+    "foodPrice": 9.75,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/174762177/photo/chicken-salad-wrap.jpg?b=1&s=612x612&w=0&k=20&c=1t9piEgR7M-WR2saNAIZhSodSIxqxhmIenEgbWvcyrw=",
+    "foodDescription": "Creamy risotto with fresh mushrooms and Parmesan cheese."
+  },
+  {
+    "id": 10,
+    "foodName": "Fish and Chips",
+    "foodPrice": 10.5,
+    "isAvailable": false,
+    "foodPhoto": "https://media.istockphoto.com/id/2175438440/photo/british-fish-and-chips-with-mashed-peas-tartar-and-ketchup-sauce.jpg?b=1&s=612x612&w=0&k=20&c=BCflJu-2ZppcJXa_pdCwlsgF9-qRtYlxII4NkLwmYig=",
+    "foodDescription": "Battered fish fillet with crispy fries and tartar sauce."
+  },
+  {
+    "id": 11,
+    "foodName": "Greek Salad",
+    "foodPrice": 6.99,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1670305570/photo/greek-salad.jpg?b=1&s=612x612&w=0&k=20&c=_ZvaoGxRJwOtutv1Mfu9XTsJOQKBvhQJODQFW4jNwos=",
+    "foodDescription": "Fresh tomatoes, cucumbers, olives, feta cheese, and olive oil."
+  },
+  {
+    "id": 12,
+    "foodName": "BBQ Ribs",
+    "foodPrice": 12.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/155431877/photo/barbecue-ribs.jpg?b=1&s=612x612&w=0&k=20&c=AzkzmHeFApydE9X7YRgu7-3lzwX3hhYLCmEUJYCZmMQ=",
+    "foodDescription": "Slow-cooked pork ribs with BBQ sauce."
+  },
+  {
+    "id": 13,
+    "foodName": "Veggie Burger",
+    "foodPrice": 7.25,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1331153390/photo/two-veggie-burgers-with-ingredients-on-a-wooden-cutting-board.jpg?b=1&s=612x612&w=0&k=20&c=-_CIKJNBapJk0i6pTgH2H6_XAP6Ss3iBAHijrJzjMKE=",
+    "foodDescription": "Grilled vegetable patty with lettuce, tomato, and sauce on a bun."
+  },
+  {
+    "id": 14,
+    "foodName": "Tomato Soup",
+    "foodPrice": 4.5,
+    "isAvailable": false,
+    "foodPhoto": "https://media.istockphoto.com/id/1144164083/photo/roasted-tomato-garlic-and-basil-soup-with-grilled-cheese-croutons.jpg?b=1&s=612x612&w=0&k=20&c=mxRREwxuc2RAv0nArOFzqwMA-1sbSwg5QE-XGnr1pAo=",
+    "foodDescription": "Smooth tomato soup served hot with croutons."
+  },
+  {
+    "id": 15,
+    "foodName": "Chicken Alfredo",
+    "foodPrice": 11.0,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1451111530/photo/creamy-alfredo-pasta-with-chicken-mushrooms-and-parmesan-cheese-healthy-italian-food.jpg?s=612x612&w=0&k=20&c=MhHgRTw5-zoej97Hq__NbSfHFVtcvmsawZqpkky4Pwo=",
+    "foodDescription": "Creamy Alfredo pasta with grilled chicken strips."
+  },
+  {
+    "id": 16,
+    "foodName": "Shrimp Scampi",
+    "foodPrice": 13.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1413553779/photo/chicken-alfredo-pasta-in-a-bowl-garnished-with-basil-leaves.jpg?s=612x612&w=0&k=20&c=hkFdbf102P_dzRbIWhDPXf8FYqzudI_BI8LUvvmTTno=",
+    "foodDescription": "Shrimp cooked in garlic butter sauce with linguine pasta."
+  },
+  {
+    "id": 17,
+    "foodName": "Beef Stroganoff",
+    "foodPrice": 12.0,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/612246764/photo/pasta-with-chicken.jpg?s=612x612&w=0&k=20&c=c_gZbA4DXcLGWLng58D2B9Od_do4xpGe1JXyUjstz0A=",
+    "foodDescription": "Tender beef in creamy mushroom sauce served over noodles."
+  },
+  {
+    "id": 18,
+    "foodName": "Pancakes",
+    "foodPrice": 5.99,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1270957163/photo/grilled-chicken-piccata-with-penne-pasta-and-fresh-artisan-bread.jpg?s=612x612&w=0&k=20&c=x8cfXymDLL2riwmURdxqmTWrJeNJECfqp16W14swCgc=",
+    "foodDescription": "Fluffy pancakes served with syrup and butter."
+  },
+  {
+    "id": 19,
+    "foodName": "BLT Sandwich",
+    "foodPrice": 6.25,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/2039788884/photo/chicken-alfredo-penne-creamy-pasta-wich-parmesan-cheese-in-a-white-plate-on-a-brown-napkin.jpg?s=612x612&w=0&k=20&c=9gI7BjOOBnYpvhdjUo-NbuVSu9z5Ynoa_QbN8CiUkx0=",
+    "foodDescription": "Bacon, lettuce, and tomato sandwich on toasted bread."
+  },
+  {
+    "id": 20,
+    "foodName": "Veggie Wrap",
+    "foodPrice": 7.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1265266166/photo/fettuccine-alfredo-grilled-chicken.jpg?s=612x612&w=0&k=20&c=ac0CVpJDNQXhF9FMqlKNifBdPNPzhK9-Fx0GPPmPAdA=",
+    "foodDescription": "Whole wheat wrap filled with fresh vegetables and hummus."
+  },
+  {
+    "id": 21,
+    "foodName": "Chicken Tikka Masala",
+    "foodPrice": 11.99,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/2034438962/photo/close-up-shot-of-a-woman-eating-creamy-salted-egg-pasta.jpg?s=612x612&w=0&k=20&c=N60Iz_RBsW6iBjAEHzs-Dravb6qtOqKTYjuR41L6UnE=",
+    "foodDescription": "Spicy grilled chicken chunks cooked in creamy tomato sauce."
+  },
+  {
+    "id": 22,
+    "foodName": "Falafel Plate",
+    "foodPrice": 8.0,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/509023402/photo/chicken-scallopini-food.jpg?s=612x612&w=0&k=20&c=KbzZjYt5Tw-uFG5LVyT8X2SnkFrGhjVd7FYLDQxEM4E=",
+    "foodDescription": "Crispy fried chickpea balls with salad and tahini sauce."
+  },
+  {
+    "id": 23,
+    "foodName": "French Fries",
+    "foodPrice": 3.0,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1443993866/photo/french-fries-with-ketchup-and-cocktail-sauce.jpg?s=612x612&w=0&k=20&c=URpOsc5tds8tOfxK4ZO3Tkx6mwLho7fL_pTBSNdziBU=",
+    "foodDescription": "Crispy golden fries served with ketchup."
+  },
+  {
+    "id": 24,
+    "foodName": "Sushi Platter",
+    "foodPrice": 15.0,
+    "isAvailable": false,
+    "foodPhoto": "https://media.istockphoto.com/id/1411455768/photo/chicken-nuggets-in-a-plate-with-ketchup-salad-and-lemon-served-on-a-white-wooden-table.jpg?s=612x612&w=0&k=20&c=whROdq9O0L7_4L7UtG1sX3NH3Q_mYlEMPtn8bdxV2kg=",
+    "foodDescription": "Assortment of fresh sushi rolls and nigiri."
+  },
+  {
+    "id": 25,
+    "foodName": "Lentil Soup",
+    "foodPrice": 4.75,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1280158821/photo/diverse-keto-dishes.jpg?s=612x612&w=0&k=20&c=V0YSYORJ5rwklY3adnK5K6XU3nhup1NIT_wq8BizJx8=",
+    "foodDescription": "Hearty lentil soup with vegetables and spices."
+  },
+  {
+    "id": 26,
+    "foodName": "Grilled Salmon",
+    "foodPrice": 14.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/537703317/photo/chicken-nuggets-with-ketchup.jpg?s=612x612&w=0&k=20&c=ywQQ8RIeD2oRbyQrG6JQBLbo1laVEzXKU1ecbgjgXJo=",
+    "foodDescription": "Salmon fillet grilled with lemon and herbs."
+  },
+  {
+    "id": 27,
+    "foodName": "Chicken Nuggets",
+    "foodPrice": 5.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/182744943/photo/burger.jpg?s=612x612&w=0&k=20&c=pi20IieXf8UNk6SeJy-cHxubaVD7L5Rnw2i0Qo8vNyM=",
+    "foodDescription": "Crispy fried chicken bites served with dipping sauce."
+  },
+  {
+    "id": 28,
+    "foodName": "Beef Burger",
+    "foodPrice": 7.99,
+    "isAvailable": false,
+    "foodPhoto": "https://media.istockphoto.com/id/1471609071/photo/chicken-nuggets-with-ketchup-on-a-dark-background-shot-from-the-top.jpg?s=612x612&w=0&k=20&c=vHWKBxeLdE3sgwfEMZgHrDo8_DbWzW1AJq180TmNN1E=",
+    "foodDescription": "Grilled beef patty with cheese, lettuce, tomato, and pickles."
+  },
+  {
+    "id": 29,
+    "foodName": "Caprese Salad",
+    "foodPrice": 6.5,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1264941753/photo/traditional-caprese-salad-top-view.jpg?s=612x612&w=0&k=20&c=pCEMc7AgClTLTQnCFh_-DYf9q9pFenmXCzQ33RM_5dk=",
+    "foodDescription": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic."
+  },
+  {
+    "id": 30,
+    "foodName": "Chicken Quesadilla",
+    "foodPrice": 7.25,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/857402972/photo/healthy-appetizer-caprese-salad-with-tomato-and-mozzarella-italian-food-of-mediterranean-diet.jpg?s=612x612&w=0&k=20&c=osKHwB6nT4ZkX2kKIlO85VXN4tuwyKm-lczOOglyYSI=",
+    "foodDescription": "Grilled tortilla stuffed with chicken and melted cheese."
+  },
+  {
+    "id": 31,
+    "foodName": "Vegetable Soup",
+    "foodPrice": 4.25,
+    "isAvailable": true,
+    "foodPhoto": "https://media.istockphoto.com/id/1264941753/photo/traditional-caprese-salad-top-view.jpg?s=612x612&w=0&k=20&c=pCEMc7AgClTLTQnCFh_-DYf9q9pFenmXCzQ33RM_5dk=",
+    "foodDescription": "Warm soup with mixed seasonal vegetables."
+  },
+  {
+    "id": 32,
+    "foodName": "Pesto Pasta",
+    "foodPrice": 8.75,
+    "isAvailable": true,
+    "foodPhoto": "https://images.unsplash.com/photo-1601924579730-3c30f3008b2b",
+    "foodDescription": "Pasta tossed in basil pesto sauce with Parmesan cheese."
+  },
+  {
+    "id": 33,
+    "foodName": "Tuna Salad",
+    "foodPrice": 6.99,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/tuna_salad_33.jpg",
+    "foodDescription": "Fresh salad with tuna, lettuce, tomato, and olives."
+  },
+  {
+    "id": 34,
+    "foodName": "Eggplant Parmesan",
+    "foodPrice": 9.25,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/eggplant_parmesan_34.jpg",
+    "foodDescription": "Breaded eggplant baked with marinara sauce and cheese."
+  },
+  {
+    "id": 35,
+    "foodName": "Buffalo Wings",
+    "foodPrice": 8.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/buffalo_wings_35.jpg",
+    "foodDescription": "Spicy chicken wings served with blue cheese dip."
+  },
+  {
+    "id": 36,
+    "foodName": "Vegetable Fried Rice",
+    "foodPrice": 7.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/vegetable_fried_rice_36.jpg",
+    "foodDescription": "Rice stir fried with mixed vegetables and soy sauce."
+  },
+  {
+    "id": 37,
+    "foodName": "Clam Chowder",
+    "foodPrice": 6.5,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/clam_chowder_37.jpg",
+    "foodDescription": "Creamy soup with clams, potatoes, and celery."
+  },
+  {
+    "id": 38,
+    "foodName": "Meatball Sub",
+    "foodPrice": 7.75,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/meatball_sub_38.jpg",
+    "foodDescription": "Italian meatballs in marinara sauce on a toasted roll."
+  },
+  {
+    "id": 39,
+    "foodName": "Chicken Fried Rice",
+    "foodPrice": 7.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_fried_rice_39.jpg",
+    "foodDescription": "Rice stir fried with chicken, eggs, and vegetables."
+  },
+  {
+    "id": 40,
+    "foodName": "Greek Gyro",
+    "foodPrice": 8.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/greek_gyro_40.jpg",
+    "foodDescription": "Pita bread filled with grilled meat, veggies, and tzatziki sauce."
+  },
+  {
+    "id": 41,
+    "foodName": "BBQ Chicken Pizza",
+    "foodPrice": 10.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/bbq_chicken_pizza_41.jpg",
+    "foodDescription": "Pizza topped with BBQ chicken, onions, and cheese."
+  },
+  {
+    "id": 42,
+    "foodName": "Vegetable Lasagna",
+    "foodPrice": 9.75,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/vegetable_lasagna_42.jpg",
+    "foodDescription": "Layered pasta with mixed vegetables, cheese, and tomato sauce."
+  },
+  {
+    "id": 43,
+    "foodName": "Cobb Salad",
+    "foodPrice": 7.99,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/cobb_salad_43.jpg",
+    "foodDescription": "Salad with chicken, bacon, eggs, avocado, and blue cheese."
+  },
+  {
+    "id": 44,
+    "foodName": "Mac and Cheese",
+    "foodPrice": 6.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/mac_and_cheese_44.jpg",
+    "foodDescription": "Creamy macaroni and cheese baked to perfection."
+  },
+  {
+    "id": 45,
+    "foodName": "Shrimp Cocktail",
+    "foodPrice": 12.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/shrimp_cocktail_45.jpg",
+    "foodDescription": "Chilled shrimp served with cocktail sauce."
+  },
+  {
+    "id": 46,
+    "foodName": "Veggie Omelette",
+    "foodPrice": 5.99,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_omelette_46.jpg",
+    "foodDescription": "Fluffy omelette stuffed with vegetables and cheese."
+  },
+  {
+    "id": 47,
+    "foodName": "Pulled Pork Sandwich",
+    "foodPrice": 8.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/pulled_pork_sandwich_47.jpg",
+    "foodDescription": "Slow-cooked pulled pork with BBQ sauce on a bun."
+  },
+  {
+    "id": 48,
+    "foodName": "Tom Yum Soup",
+    "foodPrice": 6.25,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/tom_yum_soup_48.jpg",
+    "foodDescription": "Spicy Thai soup with shrimp, mushrooms, and lemongrass."
+  },
+  {
+    "id": 49,
+    "foodName": "Beef Nachos",
+    "foodPrice": 7.75,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/beef_nachos_49.jpg",
+    "foodDescription": "Tortilla chips topped with seasoned beef, cheese, and jalapenos."
+  },
+  {
+    "id": 50,
+    "foodName": "Chicken Satay",
+    "foodPrice": 7.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_satay_50.jpg",
+    "foodDescription": "Grilled chicken skewers served with peanut sauce."
+  },
+  {
+    "id": 51,
+    "foodName": "Fish Tacos",
+    "foodPrice": 8.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/fish_tacos_51.jpg",
+    "foodDescription": "Grilled fish in tortillas with cabbage and lime sauce."
+  },
+  {
+    "id": 52,
+    "foodName": "Stuffed Peppers",
+    "foodPrice": 9.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/stuffed_peppers_52.jpg",
+    "foodDescription": "Bell peppers stuffed with rice, vegetables, and cheese."
+  },
+  {
+    "id": 53,
+    "foodName": "Chicken Parmesan",
+    "foodPrice": 11.5,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/chicken_parmesan_53.jpg",
+    "foodDescription": "Breaded chicken baked with marinara sauce and cheese."
+  },
+  {
+    "id": 54,
+    "foodName": "Veggie Sushi Roll",
+    "foodPrice": 8.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_sushi_roll_54.jpg",
+    "foodDescription": "Rice roll with cucumber, avocado, and carrots."
+  },
+  {
+    "id": 55,
+    "foodName": "French Onion Soup",
+    "foodPrice": 5.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/french_onion_soup_55.jpg",
+    "foodDescription": "Caramelized onions in broth topped with melted cheese."
+  },
+  {
+    "id": 56,
+    "foodName": "Chicken Fajitas",
+    "foodPrice": 9.75,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_fajitas_56.jpg",
+    "foodDescription": "Grilled chicken with peppers and onions served with tortillas."
+  },
+  {
+    "id": 57,
+    "foodName": "Vegetable Curry",
+    "foodPrice": 8.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/vegetable_curry_57.jpg",
+    "foodDescription": "Mixed vegetables cooked in a spiced coconut curry sauce."
+  },
+  {
+    "id": 58,
+    "foodName": "Beef Chili",
+    "foodPrice": 7.5,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/beef_chili_58.jpg",
+    "foodDescription": "Spicy beef chili with beans and tomatoes."
+  },
+  {
+    "id": 59,
+    "foodName": "Quiche Lorraine",
+    "foodPrice": 6.99,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/quiche_lorraine_59.jpg",
+    "foodDescription": "Savory tart with bacon, cheese, and eggs."
+  },
+  {
+    "id": 60,
+    "foodName": "Greek Moussaka",
+    "foodPrice": 10.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/greek_moussaka_60.jpg",
+    "foodDescription": "Layered eggplant casserole with meat sauce and béchamel."
+  },
+  {
+    "id": 61,
+    "foodName": "Chicken Wings",
+    "foodPrice": 7.25,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_wings_61.jpg",
+    "foodDescription": "Fried chicken wings tossed in your choice of sauce."
+  },
+  {
+    "id": 62,
+    "foodName": "Caprese Panini",
+    "foodPrice": 6.5,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/caprese_panini_62.jpg",
+    "foodDescription": "Grilled sandwich with mozzarella, tomato, and basil pesto."
+  },
+  {
+    "id": 63,
+    "foodName": "Pulled Chicken Sandwich",
+    "foodPrice": 7.99,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/pulled_chicken_sandwich_63.jpg",
+    "foodDescription": "Shredded BBQ chicken served on a toasted bun."
+  },
+  {
+    "id": 64,
+    "foodName": "Veggie Pasta Primavera",
+    "foodPrice": 8.75,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_pasta_primavera_64.jpg",
+    "foodDescription": "Pasta tossed with fresh vegetables and olive oil."
+  },
+  {
+    "id": 65,
+    "foodName": "Clam Linguine",
+    "foodPrice": 12.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/clam_linguine_65.jpg",
+    "foodDescription": "Linguine pasta with clams in white wine sauce."
+  },
+  {
+    "id": 66,
+    "foodName": "French Toast",
+    "foodPrice": 5.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/french_toast_66.jpg",
+    "foodDescription": "Bread soaked in egg and milk, then grilled, served with syrup."
+  },
+  {
+    "id": 67,
+    "foodName": "Chicken Nuggets Meal",
+    "foodPrice": 6.75,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/chicken_nuggets_meal_67.jpg",
+    "foodDescription": "Chicken nuggets served with fries and a drink."
+  },
+  {
+    "id": 68,
+    "foodName": "Veggie Stir Fry Noodles",
+    "foodPrice": 7.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_stir_fry_noodles_68.jpg",
+    "foodDescription": "Noodles stir fried with vegetables and soy sauce."
+  },
+  {
+    "id": 69,
+    "foodName": "Beef Kabobs",
+    "foodPrice": 11.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/beef_kabobs_69.jpg",
+    "foodDescription": "Grilled beef skewers with vegetables."
+  },
+  {
+    "id": 70,
+    "foodName": "Cauliflower Wings",
+    "foodPrice": 6.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/cauliflower_wings_70.jpg",
+    "foodDescription": "Crispy battered cauliflower bites tossed in buffalo sauce."
+  },
+  {
+    "id": 71,
+    "foodName": "Spinach Salad",
+    "foodPrice": 6.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/spinach_salad_71.jpg",
+    "foodDescription": "Fresh spinach leaves with mushrooms, bacon, and vinaigrette."
+  },
+  {
+    "id": 72,
+    "foodName": "Chicken Noodle Soup",
+    "foodPrice": 5.25,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_noodle_soup_72.jpg",
+    "foodDescription": "Classic soup with chicken, noodles, and vegetables."
+  },
+  {
+    "id": 73,
+    "foodName": "Steak Sandwich",
+    "foodPrice": 10.5,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/steak_sandwich_73.jpg",
+    "foodDescription": "Grilled steak slices with onions and peppers on a roll."
+  },
+  {
+    "id": 74,
+    "foodName": "Chicken Salad",
+    "foodPrice": 7.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_salad_74.jpg",
+    "foodDescription": "Mixed greens topped with grilled chicken and vinaigrette."
+  },
+  {
+    "id": 75,
+    "foodName": "Veggie Pizza",
+    "foodPrice": 9.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_pizza_75.jpg",
+    "foodDescription": "Pizza topped with bell peppers, olives, onions, and mushrooms."
+  },
+  {
+    "id": 76,
+    "foodName": "Fish Curry",
+    "foodPrice": 11.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/fish_curry_76.jpg",
+    "foodDescription": "Fish cooked in spicy coconut curry sauce."
+  },
+  {
+    "id": 77,
+    "foodName": "Turkey Sandwich",
+    "foodPrice": 6.75,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/turkey_sandwich_77.jpg",
+    "foodDescription": "Sliced turkey breast with lettuce, tomato, and mayo."
+  },
+  {
+    "id": 78,
+    "foodName": "Beef Stew",
+    "foodPrice": 10.0,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/beef_stew_78.jpg",
+    "foodDescription": "Slow cooked beef with potatoes and carrots in gravy."
+  },
+  {
+    "id": 79,
+    "foodName": "Avocado Toast",
+    "foodPrice": 5.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/avocado_toast_79.jpg",
+    "foodDescription": "Toasted bread topped with mashed avocado and seasonings."
+  },
+  {
+    "id": 80,
+    "foodName": "Pasta Carbonara",
+    "foodPrice": 9.25,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/pasta_carbonara_80.jpg",
+    "foodDescription": "Pasta with creamy sauce, bacon, and Parmesan cheese."
+  },
+  {
+    "id": 81,
+    "foodName": "Stuffed Mushrooms",
+    "foodPrice": 6.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/stuffed_mushrooms_81.jpg",
+    "foodDescription": "Mushrooms stuffed with cheese and herbs."
+  },
+  {
+    "id": 82,
+    "foodName": "Vegetable Samosa",
+    "foodPrice": 4.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/vegetable_samosa_82.jpg",
+    "foodDescription": "Fried pastry filled with spiced vegetables."
+  },
+  {
+    "id": 83,
+    "foodName": "Chicken Shawarma",
+    "foodPrice": 7.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_shawarma_83.jpg",
+    "foodDescription": "Marinated chicken wrapped in pita bread with veggies."
+  },
+  {
+    "id": 84,
+    "foodName": "Beef Burrito",
+    "foodPrice": 8.0,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/beef_burrito_84.jpg",
+    "foodDescription": "Flour tortilla filled with beef, rice, beans, and cheese."
+  },
+  {
+    "id": 85,
+    "foodName": "Veggie Chili",
+    "foodPrice": 7.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_chili_85.jpg",
+    "foodDescription": "Spicy chili made with mixed vegetables and beans."
+  },
+  {
+    "id": 86,
+    "foodName": "Fish Fingers",
+    "foodPrice": 6.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/fish_fingers_86.jpg",
+    "foodDescription": "Breaded fish sticks served with tartar sauce."
+  },
+  {
+    "id": 87,
+    "foodName": "Chicken Burrito Bowl",
+    "foodPrice": 9.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_burrito_bowl_87.jpg",
+    "foodDescription": "Bowl with rice, chicken, beans, salsa, and cheese."
+  },
+  {
+    "id": 88,
+    "foodName": "Vegetable Tempura",
+    "foodPrice": 7.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/vegetable_tempura_88.jpg",
+    "foodDescription": "Battered and fried vegetables served with dipping sauce."
+  },
+  {
+    "id": 89,
+    "foodName": "Cheese Omelette",
+    "foodPrice": 5.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/cheese_omelette_89.jpg",
+    "foodDescription": "Fluffy omelette filled with melted cheese."
+  },
+  {
+    "id": 90,
+    "foodName": "Pork Dumplings",
+    "foodPrice": 7.25,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/pork_dumplings_90.jpg",
+    "foodDescription": "Steamed dumplings filled with seasoned pork."
+  },
+  {
+    "id": 91,
+    "foodName": "Chocolate Cake",
+    "foodPrice": 4.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chocolate_cake_91.jpg",
+    "foodDescription": "Rich chocolate cake with creamy frosting."
+  },
+  {
+    "id": 92,
+    "foodName": "Cauliflower Curry",
+    "foodPrice": 7.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/cauliflower_curry_92.jpg",
+    "foodDescription": "Spicy cauliflower cooked in tomato-based curry."
+  },
+  {
+    "id": 93,
+    "foodName": "Chicken Kabobs",
+    "foodPrice": 10.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_kabobs_93.jpg",
+    "foodDescription": "Grilled chicken skewers marinated with spices."
+  },
+  {
+    "id": 94,
+    "foodName": "Tomato Bruschetta",
+    "foodPrice": 5.25,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/tomato_bruschetta_94.jpg",
+    "foodDescription": "Grilled bread topped with tomatoes, basil, and olive oil."
+  },
+  {
+    "id": 95,
+    "foodName": "Prawn Fried Rice",
+    "foodPrice": 9.5,
+    "isAvailable": false,
+    "foodPhoto": "https://example.com/photos/prawn_fried_rice_95.jpg",
+    "foodDescription": "Fried rice with prawns, eggs, and vegetables."
+  },
+  {
+    "id": 96,
+    "foodName": "Veggie Burger Deluxe",
+    "foodPrice": 8.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_burger_deluxe_96.jpg",
+    "foodDescription": "Veggie burger with lettuce, tomato, cheese, and avocado."
+  },
+  {
+    "id": 97,
+    "foodName": "Grilled Cheese Sandwich",
+    "foodPrice": 5.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/grilled_cheese_sandwich_97.jpg",
+    "foodDescription": "Toasted bread with melted cheese inside."
+  },
+  {
+    "id": 98,
+    "foodName": "Chicken Pot Pie",
+    "foodPrice": 11.0,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/chicken_pot_pie_98.jpg",
+    "foodDescription": "Savory pie filled with chicken and vegetables."
+  },
+  {
+    "id": 99,
+    "foodName": "Veggie Spring Rolls",
+    "foodPrice": 6.25,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/veggie_spring_rolls_99.jpg",
+    "foodDescription": "Crispy fried rolls stuffed with vegetables."
+  },
+  {
+    "id": 100,
+    "foodName": "Fruit Salad",
+    "foodPrice": 5.5,
+    "isAvailable": true,
+    "foodPhoto": "https://example.com/photos/fruit_salad_100.jpg",
+    "foodDescription": "Mixed fresh fruits served chilled."
+  }
+]
+
