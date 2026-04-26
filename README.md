@@ -8,6 +8,9 @@ This application allows users to generate QR codes instantly from text or URLs.
 ## 🌐 Live Demo
 
 👉 https://react-qrcode-generator-eta.vercel.app/
+📸 Screenshot
+
+
 
 ---
 
